@@ -3,9 +3,12 @@ import { AppContainer } from "../src/components/AppContainerComponent";
 import { AppInput } from "../src/components/AppInputComponent";
 import { AppButton } from "../src/components/AppButtonContainer";
 
-const Login = props => {
+export const Login = props => {
     return (
       <AppContainer>
+
+          <h2>Login</h2>
+
         <AppInput 
             title="apelido ou email do usuário"
             label="Usuário"
